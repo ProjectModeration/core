@@ -49,7 +49,7 @@ func Start() {
 
 			useCache := cache != "false"
 			var resp map[string]interface{}
-			cacheKey := fmt.Sprintf("worker:%d", id)
+			cacheKey := fmt.Sprintf("MLworker:%d", id)
 
 			if useCache {
 				main.Println("getting cached value...")

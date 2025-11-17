@@ -18,11 +18,11 @@ func main() {
 		main.Println("error when importing env, is the file even exist?")
 	}
 
-	enable := os.Getenv("ENABLE_LOCAL_MODEL")
+	enable := os.Getenv("DISABLE_LOCAL_MODEL")
 
 	envs := []string{"LOCAL_MODEL_URL", "GEMINI_API_KEY", "SUPABASE_URL", "REDIS_PUBLIC_ENDPOINT", "REDIS_USERNAME", "REDIS_PASSWORDS"} // lazy way
 
-	if enable == "false" {
+	if enable == "true" {
 		main.Println("local model is disabled, skipping envs that related to it")
 
 		envs = slices.Delete(envs, 1, 2)
