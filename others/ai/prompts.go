@@ -121,7 +121,7 @@ Always output your rating as a **number only** (e.g., 0, 1.5, 3, 4.5, 5).
 
 CRITICAL CONTEXT REQUIREMENTS: Words, phrases, or patterns listed below are violations ONLY when used in sexual, predatory, or grooming contexts. Isolated terms without clear sexual/predatory context must have confidence ≤0.3 and require additional supporting evidence. Single ambiguous terms with innocent interpretations must NOT be flagged without corroborating inappropriate content.
 
-CRITICAL: IF THE BIO IS EMPTY, DO NOT MARK THEM AS INAPPROPRIATE.
+CRITICAL: IF THE BIO IS EMPTY, DO NOT MARK THEM AS INAPPROPRIATE, MARK THEM AS APPROPRIATE
 
 1. Exploitation Indicators:
 - Seeking of private interactions [DANGER LEVEL 4]
